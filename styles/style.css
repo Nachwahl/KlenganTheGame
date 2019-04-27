@@ -1,11 +1,22 @@
 body {
   background-color: rgb(37, 34, 33);
-  padding: 10;
+  padding: 30px;
 }
 
 .alertbox-danger {
   font-family: 'Roboto Slab', serif;
   color: white;
   background-color: #e74c3c;
-  padding: 50 10 50 10;
+  padding: 40px 10px 40px 20px;
+  border-radius: 3px;
+}
+
+.w-5 {
+  width: 500px;
+}
+
+.shadow {
+  -webkit-box-shadow: 3px 4px 22px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 4px 22px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 4px 22px -6px rgba(0, 0, 0, 0.75);
 }
